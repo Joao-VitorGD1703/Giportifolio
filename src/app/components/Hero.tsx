@@ -14,11 +14,11 @@ export function Hero() {
         >
           <div>
             <p className="text-white mb-4" style={{ fontSize: '1.125rem', opacity: 0.9, fontWeight: 500 }}>
-              Olá, eu sou um
+              Olá, eu sou a Gi uma
             </p>
             <h1 className="text-white mb-6" style={{ fontSize: 'clamp(3rem, 8vw, 5rem)', fontWeight: 800, lineHeight: '1.1', letterSpacing: '-0.02em' }}>
               Designer de <br />
-              <span style={{ color: '#b616b6' }}>Tecnologia</span> Sênior
+              <span style={{ color: '#b616b6' }}>Tecnologia</span> 
             </h1>
             <p className="text-white max-w-xl" style={{ fontSize: '1.125rem', opacity: 0.8, lineHeight: '1.6' }}>
               Especializado em criar experiências digitais de <span style={{ color: '#b616b6', fontWeight: 600 }}>alto impacto</span> que 

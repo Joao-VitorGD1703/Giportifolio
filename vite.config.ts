@@ -2,6 +2,10 @@ import { defineConfig } from 'vite'
 import path from 'path'
 import tailwindcss from '@tailwindcss/vite'
 import react from '@vitejs/plugin-react'
+import dotenv from 'dotenv'
+
+// Load environment variables from .env file
+dotenv.config()
 
 export default defineConfig({
   plugins: [
@@ -10,6 +14,9 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  define: {
+    'process.env': process.env
+  },
   resolve: {
     alias: {
       // Alias @ to the src directory
